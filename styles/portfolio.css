@@ -151,3 +151,24 @@ main{
 .resume-download-cv{
     margin-top: 30px;
 }
+
+/* footer style */
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+.footer-column{
+    width: 100%;
+}
+footer input[type="text"], footer input[type="Email"], footer textarea{
+    height: 64px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+
+}
